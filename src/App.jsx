@@ -10,8 +10,11 @@ export default function App() {
       <Navigation />
       <div className="min-h-screen">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/product/:productType" element={<Product />} />
+          <Route path="/mushroom-gaming" element={<Home />} />
+          <Route
+            path="/mushroom-gaming/product/:productType"
+            element={<Product />}
+          />
         </Routes>
       </div>
       <Footer />

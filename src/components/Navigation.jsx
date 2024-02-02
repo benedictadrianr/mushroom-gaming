@@ -12,21 +12,21 @@ export const Navigation = () => {
           &#9776;
         </button>
         <div className="flex-row hidden lg:flex space-x-8 text-sm justify-evenly xl:justify-between items-center">
-          <Link className="w-10" to="/">
+          <Link className="w-10" to="/mushroom-gaming">
             <img src={mushroom} alt="mushroom" className="" />
           </Link>
           <Link
-            to="/product/headphone"
+            to="/mushroom-gaming/product/headphone"
             className="hover:text-black py-2 transition-all ease w-10 text-sm">
             Headsets
           </Link>
           <Link
-            to="/product/keyboard"
+            to="/mushroom-gaming/product/keyboard"
             className="hover:text-black py-2 transition-all ease w-10 text-sm">
             Keyboards
           </Link>
           <Link
-            to="/product/mouse"
+            to="/mushroom-gaming/product/mouse"
             className="hover:text-black py-2 transition-all ease w-10 text-sm">
             Mouses
           </Link>
